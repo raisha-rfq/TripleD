@@ -62,7 +62,7 @@ Eye closure is detected by estimating EAR from the ratio of distances between fa
 - Update GUI (Real-time status display and video feed)
 
 ## Utilities:
-[<img src="main/utilities.png">](https://github.com/raisha-rfq/TripleD/edit/main/utilities.png)
+[https://github.com/raisha-rfq/TripleD/edit/main/utilities.png](https://github.com/raisha-rfq/TripleD/blob/main/utilities.png)
 
 ## Drawbacks:
 - Wearing glasses can lead to wrongful detection or failure to  recognise eye closure.

@@ -197,6 +197,7 @@ def update_status():
                     recommendation_label.config(text=beverage_recommendation)
                     print("Drowsiness detected!")
                     trigger_vibration(duration=0.2)
+                    beep_sound.stop()
                 if sleep_counter > 24:  
                     status = "Sleeping"
                     color = (255, 0, 0)  # Red for sleeping
@@ -204,6 +205,7 @@ def update_status():
                     beverage_recommendation = recommend_beverage(status)
                     recommendation_label.config(text=beverage_recommendation)
                     print("Sleeping detected!")
+                    beep_sound.stop()
             elif ear >= ear_threshold:  # If EAR is above threshold, eyes are open
                 sleep_counter = 0
                 active_counter += 1
